@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(44, 44, 44);
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(55, 199, 55);
+    color: rgb(55, 199, 55) ;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-transform: $text-transform-uppercase;
+    letter-spacing: $spacing-1;
+    font-family: 'Poppins';
+    font-weight: bold;
+    animation: fadeIn ease-in 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
