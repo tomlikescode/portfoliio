@@ -1,18 +1,20 @@
-section {
+.btn-section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: rgb(44, 44, 44);
+     
 }
 
-button {
+.btn-go {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 100px;
     background-color: rgb(44, 44, 44);
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(55, 199, 55);
     color: rgb(55, 199, 55) ;
     border-radius: 10px;
     font-size: 2rem;
@@ -20,10 +22,97 @@ button {
     letter-spacing: $spacing-1;
     font-family: 'Poppins';
     font-weight: bold;
-    animation: fadeIn ease-in 1s;
+    // animation: fadeIn ease-in 1s;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+    
 }
 
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
+
+
+// div::before {
+
+//     content: "";
+//     // background-color: white;
+//     background-image: conic-gradient(
+//         rgba(55,199,55) 120deg, 
+//         transparent 120deg
+//     );
+//     height: 150%;
+//     width: 150%;
+//     position: absolute;
+//     left: -25%;
+//     top: -25%;
+//     animation: rotate 5s infinite linear;
+// }
+
+// @keyframes rotate {
+//     100% {
+//         transform: rotate(-360deg);
+//     }
+// }
+
+// div::after {
+//     content: "GO";
+//     height: 94%;
+//     width: 94%;
+//     position: absolute;
+//     background-color: rgb(44, 44, 44);
+//     border-radius: 10px;
+//     top: 3%;
+//     left: 3%;
+//     color: rgba(55,199,55);
+//     display: grid;
+//     place-items: center;
+
+// }
+
+// @keyframes fadeIn {
+//     0% {opacity: 0;}
+//     100% {opacity: 1;}
+// }
+
+// .container {
+//     position: relative;
+//     width: 800px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .icon {
+//         width: 200px;
+//         height: 100px;
+        
+//         path {
+//             fill: transparent;
+//             stroke-width: 10;
+//             stroke: #31e8ff;
+//         }
+//     }
+// }
+
+
+// a {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%,-50%);
+//     width: 180px;
+//     height: 60px;
+//     text-align: center;
+//     color: white;
+// }
+
+// a svg,
+// a svg rect {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     fill: transparent;
+// }
+
+// a svg rect {
+//     stroke: white;
+// }

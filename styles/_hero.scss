@@ -1,0 +1,65 @@
+.hero-background {
+
+    background-color: rgb(44, 44, 44);
+
+}
+
+.hero {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    
+    line-height: 7rem; 
+    text-transform: uppercase;
+    letter-spacing: $spacing-1;
+    font-size: 1.25rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+
+    
+    
+
+
+    @include media-md {
+        font-size: 1.75rem;
+        line-height: 10rem;
+    }
+
+    @include media-lg {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    // .name-and-job {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    // }
+
+    .my-name {
+        color: #81FF6C;
+    }
+
+    .job-title {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        text-align: right;
+        line-height: 2.5rem;
+        color: #D375FF;
+        
+
+        @include media-md {
+            line-height: 3.25rem;
+        }
+    }
+
+    
+}
+

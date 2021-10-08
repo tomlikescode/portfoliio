@@ -1,0 +1,230 @@
+.projects-background {
+    background-color: white;
+}
+
+.projects {
+    height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+    // text-transform: capitalize;
+    
+
+    .projects-title {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        letter-spacing: $spacing-1;
+    }
+
+    .projects-title::after {
+        content: '';
+        width: 150px;
+        position: absolute;
+        left: auto;
+        right: auto;
+        bottom: -10px;
+        border-width: 0 0 5px;
+        border-style: solid;
+        border-color: #D375FF;
+    }
+
+   .projects-wrapper {
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+    //    justify-content: space-evenly;
+       @include media-md {
+           gap: 3rem;
+       }
+
+       @include media-lg {
+        //    flex-direction: row;
+        //    max-width: 1000px;
+           justify-content: center;
+           align-items: center;
+           max-width: 1080px;
+           margin: 0 auto;
+       }
+   }
+
+    .project-unit {
+        display: flex;
+        height: 100%;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        background-color: rgb(247, 247, 247);
+        background-color: rgb(238, 238, 238);
+        border-radius: 5px;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        // box-shadow: 1px 1px 45px rgba(0, 0, 0, 0.1),
+        //             -1px -1px 45px rgba(0,0,0,0.1);
+        @include media-lg {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, auto);
+            place-items: center;
+        }
+
+        img {
+        width: 250px;
+        height: 250px;
+        // margin-top: -50px;
+            @include media-lg {
+                grid-column: 1 / 2;
+                grid-row: 1 / 5;
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+
+    
+
+
+    .project-name {
+        text-transform: uppercase;
+        letter-spacing: $spacing-1;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+
+        @include media-md {
+            // font-size: 2rem;
+        }
+
+        @include media-lg {
+            grid-row: 1 / 2;
+            padding-top: 0;
+        }
+    }
+
+    .project-description {
+        padding-left: 20px;
+        padding-right: 10px;
+        letter-spacing: $spacing-1;
+        line-height: 1.75rem;
+
+        @include media-md {
+            // font-size: 1.25rem;
+        }
+
+        @include media-lg {
+            grid-row: 2 / 3;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
+
+    .made-with {
+        max-width: 80%;
+        font-size: 1.15rem;
+        text-transform: capitalize;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 1rem;
+        text-align: center;
+        
+        @include media-md {
+            padding-top: 2rem;
+        }
+
+        @include media-lg {
+            grid-row: 3 / 4;
+            padding-top: 0;
+            // place-items: start;
+        }
+        
+        .made-with-title {
+            // grid-row: 1/2;
+            // align-self: center;
+            margin-bottom: 20px;
+            letter-spacing: $spacing-1;
+
+            @include media-md {
+                letter-spacing: $spacing-3;
+                // font-size: 1.25rem;
+            }
+
+        }
+
+        .languages {
+        // grid-row: 2/3;
+        // display: inline-block;
+        // justify-content: space-evenly;
+        // align-items: center;
+        // flex-wrap: wrap;
+        display: flex;
+        column-gap: 1rem;
+        padding-bottom: 1rem;
+        // max-width: 70%;
+
+            @include media-md {
+                column-gap: 3rem;
+            }
+
+            @include media-lg {
+                padding-bottom: 0;
+            }
+
+            img {
+                // height: 20px;
+               width: 2.5rem;
+               height: 2.5rem;
+
+               @include media-md {
+                   width: 3rem;
+                   height: 3rem;
+               }
+            }
+        }
+
+        
+    }
+
+    
+
+    
+    
+
+    .project-links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 75%;
+        letter-spacing: .1rem;
+        text-transform: capitalize;
+
+        @include media-md {
+            font-size: 1.15rem;
+            justify-content: center;
+            gap: 5%;
+            letter-spacing: $spacing-1;
+        }
+
+        @include media-lg {
+            grid-row: 4 / 5;
+        }
+
+        .vertical-line {
+            
+            width: 1px;
+            height: 1.5rem;
+            background-color: rgb(85, 85, 85);
+            }
+    }
+
+    
+}
+

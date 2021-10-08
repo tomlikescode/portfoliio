@@ -1,5 +1,8 @@
 @import 'config';
 @import 'button';
+@import 'hero';
+@import 'projects';
+@import 'about';
 
 
 *,
@@ -8,4 +11,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  
 }
