@@ -77,15 +77,23 @@
             place-items: center;
         }
 
-        img {
-        width: 250px;
-        height: 250px;
+        a {
+        
         // margin-top: -50px;
             @include media-lg {
                 grid-column: 1 / 2;
                 grid-row: 1 / 5;
-                width: 400px;
-                height: 400px;
+                
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+
+                @include media-lg {
+                    width: 400px;
+                    height: 400px;
+                }
             }
         }
     }
