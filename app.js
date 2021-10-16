@@ -1,39 +1,39 @@
 const projects = [
     {
         id: 1,
-        img: './images/media.png',
+        img: './images/media-pest.png',
         title: 'pest control website',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!'
-        languageA: './assets/html5-brands.svg',
-        languageB: './assets/css3-alt-brands.svg',
-        languageC: './assets/js-brands.svg',
-        liveSiteURL: '#',
-        githubURL: '#',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
+        showA: './assets/html5-brands.svg',
+        showB: './assets/css3-alt-brands.svg',
+        showC: './assets/js-brands.svg',
+        liveSiteURL: 'https://tomlikescode.github.io/Pest-Control-Website/',
+        githubURL: 'https://github.com/tomlikescode/Pest-Control-Website',
     },
     {
         id: 2,
         img: './images/media.png',
         title: 'restaurant website',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!'
-        languageA: './assets/html5-brands.svg',
-        languageB: './assets/sass-brands.svg',
-        languageC: './assets/js-brands.svg',
-        liveSiteURL: '#',
-        githubURL: '#',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
+        showA: './assets/html5-brands.svg',
+        showB: './assets/sass-brands.svg',
+        showC: './assets/js-brands.svg',
+        liveSiteURL: 'https://tomlikescode.github.io/Restaurant-website-no-sass/',
+        githubURL: 'https://github.com/tomlikescode/Restaurant-Website',
     },
 ];
 
-const sectionCenter = document.querySelector('.project-wrapper');
+const sectionCenter = document.querySelector('.projects-wrapper');
 
 window.addEventListener('DOMContentLoaded', ()=> {
-    displayProjects(projects);
-})
+    displayProjectItems(projects);
+});
 
-function displayProjects (projectItems) {
-    let displayMenu = projectItems.map((item)=>{
+function displayProjectItems (projectItems) {
+    let displayProjects = projectItems.map((item)=>{
 
         return `<div class="project1 project-unit" id="project-specific">
-                    <img src=${item.img} id="media-formats" alt="${item.title}">
+                    <a href=${item.liveSiteURL}><img src=${item.img} id="media-formats" alt="${item.title}"></a>
                     <h2 class="project-name">
                         ${item.title}
                     </h2>
@@ -45,9 +45,9 @@ function displayProjects (projectItems) {
                             <h3>made with</h3>
                         </div>
                         <div class="languages">
-                            <img src=${item.languageA} alt="">
-                            <img src=${item.languageB} alt="">
-                            <img src=${item.languageC} alt="">
+                            <img src=${item.showA} alt="">
+                            <img src=${item.showB} alt="">
+                            <img src=${item.showC} alt="">
                         </div>
                     </div>
                     <div class="project-links">
@@ -57,5 +57,8 @@ function displayProjects (projectItems) {
                     </div>
                 
                 </div>`
-    })
+    });
+
+    displayProjects = displayProjects.join("");
+    sectionCenter.innerHTML = displayProjects;
 }
