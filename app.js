@@ -30,7 +30,7 @@ const projects = [
         showB: './assets/sass-brands.svg',
         showC: './assets/react-brands.svg',
         liveSiteURL: 'https://github.com/tomlikescode/react-project',
-        githubURL: 'https://github.com/tomlikescode/Restaurant-Website',
+        githubURL: 'https://github.com/tomlikescode/react-project',
     },
 ];
 
