@@ -1,6 +1,17 @@
 const projects = [
     {
         id: 1,
+        img: './images/media.png',
+        title: 'HTML Email - Canva',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
+        showA: './assets/html.svg',
+        showB: './assets/sass-brands.svg',
+        showC: './assets/css.svg',
+        liveSiteURL: 'https://github.com/tomlikescode/react-project',
+        githubURL: 'https://github.com/tomlikescode/react-project',
+    },
+    {
+        id: 2,
         img: './images/media-pest.png',
         title: 'pest control website',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
@@ -11,7 +22,7 @@ const projects = [
         githubURL: 'https://github.com/tomlikescode/Pest-Control-Website',
     },
     {
-        id: 2,
+        id: 3,
         img: './images/media-restaurant.png',
         title: 'restaurant website',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
@@ -22,7 +33,7 @@ const projects = [
         githubURL: 'https://github.com/tomlikescode/Restaurant-Website',
     },
     {
-        id: 3,
+        id: 4,
         img: './images/media.png',
         title: 'React API',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
@@ -32,17 +43,7 @@ const projects = [
         liveSiteURL: 'https://github.com/tomlikescode/react-project',
         githubURL: 'https://github.com/tomlikescode/react-project',
     },
-    {
-        id: 4,
-        img: './images/media.png',
-        title: 'HTML Email - Canva',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
-        showA: './assets/html.svg',
-        showB: './assets/sass-brands.svg',
-        showC: './assets/css.svg',
-        liveSiteURL: 'https://github.com/tomlikescode/react-project',
-        githubURL: 'https://github.com/tomlikescode/react-project',
-    },
+    
 ];
 
 const sectionCenter = document.querySelector('.projects-wrapper');
