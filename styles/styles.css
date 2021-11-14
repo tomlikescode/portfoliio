@@ -150,12 +150,10 @@
 }
 .projects .project-unit a img {
   width: 250px;
-  height: 250px;
 }
 @media screen and (min-width: 1024px) {
   .projects .project-unit a img {
-    width: 400px;
-    height: 400px;
+    width: 450px;
   }
 }
 .projects .project-name {

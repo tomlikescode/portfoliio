@@ -88,11 +88,11 @@
 
             img {
                 width: 250px;
-                height: 250px;
+                // height: 279px;
 
                 @include media-lg {
-                    width: 400px;
-                    height: 400px;
+                    width: 450px;
+                    // height: 400px;
                 }
             }
         }
