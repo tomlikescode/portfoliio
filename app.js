@@ -21,6 +21,17 @@ const projects = [
         liveSiteURL: 'https://tomlikescode.github.io/Restaurant-website-no-sass/',
         githubURL: 'https://github.com/tomlikescode/Restaurant-Website',
     },
+    {
+        id: 3,
+        img: './images/media.png',
+        title: 'React API',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
+        showA: './assets/html5-brands.svg',
+        showB: './assets/sass-brands.svg',
+        showC: './assets/react-brands.svg',
+        liveSiteURL: 'https://github.com/tomlikescode/react-project',
+        githubURL: 'https://github.com/tomlikescode/Restaurant-Website',
+    },
 ];
 
 const sectionCenter = document.querySelector('.projects-wrapper');
