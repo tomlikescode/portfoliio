@@ -1,14 +1,14 @@
 const projects = [
     {
         id: 1,
-        img: './images/media.png',
+        img: './images/media-canva.png',
         title: 'HTML Email - Canva',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
         showA: './assets/html.svg',
         showB: './assets/sass-brands.svg',
         showC: './assets/css.svg',
-        liveSiteURL: 'https://github.com/tomlikescode/react-project',
-        githubURL: 'https://github.com/tomlikescode/react-project',
+        liveSiteURL: 'https://tomlikescode.github.io/Canva-HTML-email/',
+        githubURL: 'https://github.com/tomlikescode/Canva-HTML-email',
     },
     {
         id: 2,
