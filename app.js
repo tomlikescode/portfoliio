@@ -1,19 +1,8 @@
 const projects = [
     {
         id: 1,
-        img: './images/media-canva.png',
-        title: 'HTML Email - Canva',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
-        showA: './assets/html.svg',
-        showB: './assets/sass-brands.svg',
-        showC: './assets/css.svg',
-        liveSiteURL: 'https://tomlikescode.github.io/Canva-HTML-email/',
-        githubURL: 'https://github.com/tomlikescode/Canva-HTML-email',
-    },
-    {
-        id: 2,
         img: './images/media-pest.png',
-        title: 'pest control website',
+        title: 'website for pest control',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
         showA: './assets/html5-brands.svg',
         showB: './assets/css3-alt-brands.svg',
@@ -22,9 +11,9 @@ const projects = [
         githubURL: 'https://github.com/tomlikescode/Pest-Control-Website',
     },
     {
-        id: 3,
+        id: 2,
         img: './images/media-restaurant.png',
-        title: 'restaurant website',
+        title: 'website for a restaurant',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
         showA: './assets/html5-brands.svg',
         showB: './assets/sass-brands.svg',
@@ -33,9 +22,9 @@ const projects = [
         githubURL: 'https://github.com/tomlikescode/Restaurant-Website',
     },
     {
-        id: 4,
+        id: 3,
         img: './images/media.png',
-        title: 'React API',
+        title: 'React App',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
         showA: './assets/html5-brands.svg',
         showB: './assets/sass-brands.svg',
@@ -43,6 +32,28 @@ const projects = [
         liveSiteURL: 'https://tomlikescode.github.io/react-project/',
         githubURL: 'https://github.com/tomlikescode/react-project',
     },
+    {
+        id: 4,
+        img: './images/media-canva.png',
+        title: 'HTML Email for Canva',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
+        showA: './assets/html.svg',
+        showB: './assets/sass-brands.svg',
+        showC: './assets/css.svg',
+        liveSiteURL: 'https://tomlikescode.github.io/Canva-HTML-email/',
+        githubURL: 'https://github.com/tomlikescode/Canva-HTML-email',
+    },
+    {
+        id: 5,
+        img: './images/media.png',
+        title: 'HTML Email for PowerSchool',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
+        showA: './assets/html.svg',
+        showB: './assets/sass-brands.svg',
+        showC: './assets/css.svg',
+        liveSiteURL: 'https://tomlikescode.github.io/HTML-email-powerschool/',
+        githubURL: 'https://github.com/tomlikescode/HTML-email-powerschool',
+    }
     
 ];
 
