@@ -45,7 +45,7 @@ const projects = [
     },
     {
         id: 5,
-        img: './images/media.png',
+        img: './images/media-new.png',
         title: 'HTML Email for PowerSchool',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequuntur quas dolor nulla fugiat facilis fuga nihil harum nam cumque vel, deserunt veniam! Fuga error iste, earum quos similique temporibus!',
         showA: './assets/html.svg',
